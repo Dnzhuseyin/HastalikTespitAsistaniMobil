@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.healthscanner.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_imageUploadFragment"
+            app:destination="@id/imageUploadFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageUploadFragment"
+        android:name="com.example.healthscanner.ui.image.ImageUploadFragment"
+        android:label="@string/upload_image"
+        tools:layout="@layout/fragment_image_upload">
+        <action
+            android:id="@+id/action_imageUploadFragment_to_analysisResultFragment"
+            app:destination="@id/analysisResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analysisResultFragment"
+        android:name="com.example.healthscanner.ui.analysis.AnalysisResultFragment"
+        android:label="@string/analysis_result"
+        tools:layout="@layout/fragment_analysis_result">
+        <action
+            android:id="@+id/action_analysisResultFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_analysisResultFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.healthscanner.ui.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.healthscanner.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation> 

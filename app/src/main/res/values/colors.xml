@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorText">#212121</color>
+    
+    <!-- Analiz sonuç renkleri -->
+    <color name="colorHealthy">#81C784</color>    <!-- Yeşil: Hastalık riski yok -->
+    <color name="colorWarning">#FFD54F</color>    <!-- Sarı: Şüpheli bulgular -->
+    <color name="colorDanger">#FF8A65</color>     <!-- Kırmızı: Doktora danışın -->
+    <color name="colorNeutral">#90A4AE</color>    <!-- Gri: Nötr durum -->
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
