@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sağlık Tarayıcı</string>
+    
+    <!-- Login ve Kayıt -->
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="register_title">Yeni Hesap Oluştur</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifreyi Doğrula</string>
+    <string name="full_name">Ad Soyad</string>
+    <string name="no_account_register">Hesabınız yok mu? Kayıt olun</string>
+    <string name="have_account_login">Zaten hesabınız var mı? Giriş yapın</string>
+    
+    <!-- Ana Sayfa -->
+    <string name="home">Ana Sayfa</string>
+    <string name="welcome_message">Sağlık Tarayıcıya Hoş Geldiniz!</string>
+    <string name="app_description">Bu uygulama, yüklediğiniz tıbbi görüntüleri analiz ederek hastalık risk değerlendirmesi yapmanıza yardımcı olur.</string>
+    <string name="start_scan">Tarama Başlat</string>
+    <string name="view_history">Geçmiş Analizler</string>
+    
+    <!-- Görüntü Yükleme -->
+    <string name="upload_image">Görüntü Yükle</string>
+    <string name="upload_image_title">Görüntü Seçin</string>
+    <string name="upload_image_instruction">Analiz etmek istediğiniz tıbbi görüntüyü seçin veya çekin</string>
+    <string name="select_from_gallery">Galeriden Seç</string>
+    <string name="take_photo">Fotoğraf Çek</string>
+    <string name="analyze_image">Görüntüyü Analiz Et</string>
+    
+    <!-- Analiz Sonucu -->
+    <string name="analysis_result">Analiz Sonucu</string>
+    <string name="analysis_result_title">Analiz Sonucunuz</string>
+    <string name="go_home">Ana Sayfaya Dön</string>
+    
+    <!-- Geçmiş -->
+    <string name="history">Geçmiş</string>
+    <string name="history_title">Geçmiş Analizler</string>
+    <string name="no_history_found">Henüz analiz kaydı bulunmamaktadır</string>
+    
+    <!-- Profil -->
+    <string name="profile">Profil</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="settings">Ayarlar</string>
+    <string name="logout">Çıkış Yap</string>
+</resources>
