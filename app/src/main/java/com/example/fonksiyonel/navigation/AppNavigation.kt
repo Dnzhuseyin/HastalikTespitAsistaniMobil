@@ -107,6 +107,9 @@ fun AppNavigation(
                 HomeScreen(
                     onNavigateToImageSelection = {
                         navController.navigate(Routes.IMAGE_SELECTION)
+                    },
+                    onNavigateToProfile = {
+                        navController.navigate(Routes.PROFILE)
                     }
                 )
             }
