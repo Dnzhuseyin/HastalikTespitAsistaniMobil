@@ -26,8 +26,21 @@ import com.example.fonksiyonel.ui.theme.Secondary
 
 @Composable
 fun HomeScreen(
-    onNavigateToImageSelection: () -> Unit
+    onNavigateToImageSelection: () -> Unit,
+    onNavigateToProfile: () -> Unit
 ) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.End
+    ) {
+        IconButton(onClick = { onNavigateToProfile() }) {
+            Icon(
+                imageVector = Icons.Rounded.Person,
+                contentDescription = "Profil",
+                tint = MaterialTheme.colorScheme.primary
+            )
+        }
+    }
     Column(
         modifier = Modifier
             .fillMaxSize()
