@@ -48,6 +48,14 @@ private fun HomeScreen(
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(vertical = 24.dp)
         )
+        // Header
+        Text(
+            text = "Hastalık Tespit Asistanı",
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.padding(vertical = 24.dp)
+        )
         
         // Welcome Card
         Card(
