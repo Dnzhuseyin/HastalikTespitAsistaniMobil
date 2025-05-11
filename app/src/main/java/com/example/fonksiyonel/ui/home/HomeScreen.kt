@@ -25,9 +25,8 @@ import com.example.fonksiyonel.ui.theme.Secondary
 
 
 @Composable
-private fun HomeScreen(
-    onNavigateToImageSelection: () -> Unit,
-    onNavigateToProfile: () -> Unit
+fun HomeScreen(
+    onNavigateToImageSelection: () -> Unit
 ) {
     Column(
         modifier = Modifier
