@@ -24,7 +24,7 @@ import com.example.fonksiyonel.ui.theme.Accent1
 import com.example.fonksiyonel.ui.theme.Accent2
 import com.example.fonksiyonel.ui.theme.Primary
 import com.example.fonksiyonel.ui.theme.Secondary
-
+@Preview
 @Composable
 fun HomeScreen(
     onNavigateToImageSelection: () -> Unit,
