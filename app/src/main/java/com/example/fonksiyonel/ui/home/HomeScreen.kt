@@ -50,7 +50,7 @@ private fun HomeScreen(
         )
         // Header
         Text(
-            text = "Hastalık Tespit Asistanı",
+            text = "Hastalık Asistanı",
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary,
